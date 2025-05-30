@@ -1,1 +1,35 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Environment variables
+.env
 *.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Media and static files (uncomment if you don't want to upload user files)
+# media/
+# staticfiles/
+
+# Pipenv/Poetry
+Pipfile.lock
+poetry.lock
+
+# Migrations (optional, if you don't want to upload them)
+# */migrations/
+# !*/migrations/__init__.py
